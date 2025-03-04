@@ -30,7 +30,6 @@ body {
 .card {
     padding: 0;
     margin-top: 5%;
-    height: 700px;
     width: 27%;
     border: none;
     border-radius: 15px;
@@ -87,6 +86,7 @@ h3 {
     font-weight: 100;   
 }
 .sosial-box p{
-    color: rgb(133, 136, 136);   
+    color: rgb(163, 163, 163);   
     font-weight: 100;
+    font-size: 12px ;
 }
