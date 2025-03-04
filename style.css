@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    justify-content: space-around;
+}
+
+.card {
+    width: 250px;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(149, 171, 163);
+    padding: 15px;
+}
+
+img {
+    width: 100%;
+}
+
+.text-box {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.description {
+    margin: 10px 0;
+}
+
+button {
+    width: 70%;
+    padding: 5px;
+    border-radius: 25px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: red;
+    padding: 8px;
+}
+
+.price {
+    padding: 3px;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    font-weight:bold;
+}
